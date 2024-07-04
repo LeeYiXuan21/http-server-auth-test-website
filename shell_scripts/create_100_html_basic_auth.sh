@@ -34,6 +34,7 @@ do
     <input type="password" name="password" placeholder="Password">
     <button type="submit">Submit</button>
   </form>
+  <p><a href="basicauth.html">Go back to basic auth index</a></p>
 </body>
 </html>
 EOF
