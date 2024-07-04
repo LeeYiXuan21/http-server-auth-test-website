@@ -23,16 +23,6 @@ do
       background-color: #ffffff;
     }
   </style>
-  <script>
-    // Basic Authentication
-    window.onload = function() {
-      var username = prompt("Enter username:");
-      var password = prompt("Enter password:");
-      if (username !== "username" || password !== "password") {
-        document.body.innerHTML = "<h1>Unauthorized Access</h1>";
-      }
-    }
-  </script>
 </head>
 <body>
   <h1>Sample Inaccessible Page $i</h1>
