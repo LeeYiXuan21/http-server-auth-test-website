@@ -1,5 +1,3 @@
-// middleware.js
-
 import { NextResponse } from 'next/server';
 
 const username = process.env.BASIC_AUTH_USERNAME;
