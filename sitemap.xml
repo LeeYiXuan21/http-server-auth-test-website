@@ -270,7 +270,7 @@
     <url>
         <loc>http://localhost:8000/90.html</loc>
     </url>
-    <url>
+    <!-- <url>
         <loc>http://localhost:8000/91.html</loc>
     </url>
     <url>
@@ -298,6 +298,6 @@
         <loc>http://localhost:8000/99.html</loc>
     </url>
     <url>
-        <loc>http://localhost:8000/100.html</loc>
-    </url>
+        <loc>http://localhost:8000/100.html</loc> -->
+    <!-- </url> -->
 </urlset>
