@@ -5,6 +5,7 @@ const password = process.env.BASIC_AUTH_PASSWORD;
 
 export function middleware(req) {
   const authHeader = req.headers.get('authorization');
+  console.log(`Authorization header received: ${authHeader}`);
 
   if (!authHeader) {
     return new NextResponse('Unauthorized', {
@@ -22,6 +23,7 @@ export function middleware(req) {
     return NextResponse.next();
   }
 
+  console.log(`Authentication failed for user: ${user}`);
   return new NextResponse('Unauthorized', {
     status: 401,
     headers: {
@@ -29,7 +31,3 @@ export function middleware(req) {
     }
   });
 }
-
-export const config = {
-  matcher: ['/basicauth/:path*']
-};
