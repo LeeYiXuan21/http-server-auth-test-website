@@ -2,719 +2,719 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
     <title>Localhost URLs</title>
-    <link href="/" rel="self"/>
+    <link href="http://localhost:8000/" rel="self"/>
     <updated>2024-06-28T00:00:00Z</updated>
     <author>
         <name>Your Name</name>
     </author>
-    <id>/</id>
+    <id>http://localhost:8000/</id>
 
     <entry>
-        <title>/1.html</title>
-        <link href="/1.html"/>
+        <title>http://localhost:8000/1.html</title>
+        <link href="http://localhost:8000/1.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/1.html</id>
-        <summary type="html">Summary for /1.html</summary>
+        <id>http://localhost:8000/1.html</id>
+        <summary type="html">Summary for http://localhost:8000/1.html</summary>
     </entry>
     <entry>
-        <title>/2.html</title>
-        <link href="/2.html"/>
+        <title>http://localhost:8000/2.html</title>
+        <link href="http://localhost:8000/2.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/2.html</id>
-        <summary type="html">Summary for /2.html</summary>
+        <id>http://localhost:8000/2.html</id>
+        <summary type="html">Summary for http://localhost:8000/2.html</summary>
     </entry>
     <entry>
-        <title>/3.html</title>
-        <link href="/3.html"/>
+        <title>http://localhost:8000/3.html</title>
+        <link href="http://localhost:8000/3.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/3.html</id>
-        <summary type="html">Summary for /3.html</summary>
+        <id>http://localhost:8000/3.html</id>
+        <summary type="html">Summary for http://localhost:8000/3.html</summary>
     </entry>
     <entry>
-        <title>/4.html</title>
-        <link href="/4.html"/>
+        <title>http://localhost:8000/4.html</title>
+        <link href="http://localhost:8000/4.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/4.html</id>
-        <summary type="html">Summary for /4.html</summary>
+        <id>http://localhost:8000/4.html</id>
+        <summary type="html">Summary for http://localhost:8000/4.html</summary>
     </entry>
     <entry>
-        <title>/5.html</title>
-        <link href="/5.html"/>
+        <title>http://localhost:8000/5.html</title>
+        <link href="http://localhost:8000/5.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/5.html</id>
-        <summary type="html">Summary for /5.html</summary>
+        <id>http://localhost:8000/5.html</id>
+        <summary type="html">Summary for http://localhost:8000/5.html</summary>
     </entry>
     <entry>
-        <title>/6.html</title>
-        <link href="/6.html"/>
+        <title>http://localhost:8000/6.html</title>
+        <link href="http://localhost:8000/6.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/6.html</id>
-        <summary type="html">Summary for /6.html</summary>
+        <id>http://localhost:8000/6.html</id>
+        <summary type="html">Summary for http://localhost:8000/6.html</summary>
     </entry>
     <entry>
-        <title>/7.html</title>
-        <link href="/7.html"/>
+        <title>http://localhost:8000/7.html</title>
+        <link href="http://localhost:8000/7.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/7.html</id>
-        <summary type="html">Summary for /7.html</summary>
+        <id>http://localhost:8000/7.html</id>
+        <summary type="html">Summary for http://localhost:8000/7.html</summary>
     </entry>
     <entry>
-        <title>/8.html</title>
-        <link href="/8.html"/>
+        <title>http://localhost:8000/8.html</title>
+        <link href="http://localhost:8000/8.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/8.html</id>
-        <summary type="html">Summary for /8.html</summary>
+        <id>http://localhost:8000/8.html</id>
+        <summary type="html">Summary for http://localhost:8000/8.html</summary>
     </entry>
     <entry>
-        <title>/9.html</title>
-        <link href="/9.html"/>
+        <title>http://localhost:8000/9.html</title>
+        <link href="http://localhost:8000/9.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/9.html</id>
-        <summary type="html">Summary for /9.html</summary>
+        <id>http://localhost:8000/9.html</id>
+        <summary type="html">Summary for http://localhost:8000/9.html</summary>
     </entry>
     <entry>
-        <title>/10.html</title>
-        <link href="/10.html"/>
+        <title>http://localhost:8000/10.html</title>
+        <link href="http://localhost:8000/10.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/10.html</id>
-        <summary type="html">Summary for /10.html</summary>
+        <id>http://localhost:8000/10.html</id>
+        <summary type="html">Summary for http://localhost:8000/10.html</summary>
     </entry>
     <entry>
-        <title>/11.html</title>
-        <link href="/11.html"/>
+        <title>http://localhost:8000/11.html</title>
+        <link href="http://localhost:8000/11.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/11.html</id>
-        <summary type="html">Summary for /11.html</summary>
+        <id>http://localhost:8000/11.html</id>
+        <summary type="html">Summary for http://localhost:8000/11.html</summary>
     </entry>
     <entry>
-        <title>/12.html</title>
-        <link href="/12.html"/>
+        <title>http://localhost:8000/12.html</title>
+        <link href="http://localhost:8000/12.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/12.html</id>
-        <summary type="html">Summary for /12.html</summary>
+        <id>http://localhost:8000/12.html</id>
+        <summary type="html">Summary for http://localhost:8000/12.html</summary>
     </entry>
     <entry>
-        <title>/13.html</title>
-        <link href="/13.html"/>
+        <title>http://localhost:8000/13.html</title>
+        <link href="http://localhost:8000/13.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/13.html</id>
-        <summary type="html">Summary for /13.html</summary>
+        <id>http://localhost:8000/13.html</id>
+        <summary type="html">Summary for http://localhost:8000/13.html</summary>
     </entry>
     <entry>
-        <title>/14.html</title>
-        <link href="/14.html"/>
+        <title>http://localhost:8000/14.html</title>
+        <link href="http://localhost:8000/14.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/14.html</id>
-        <summary type="html">Summary for /14.html</summary>
+        <id>http://localhost:8000/14.html</id>
+        <summary type="html">Summary for http://localhost:8000/14.html</summary>
     </entry>
     <entry>
-        <title>/15.html</title>
-        <link href="/15.html"/>
+        <title>http://localhost:8000/15.html</title>
+        <link href="http://localhost:8000/15.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/15.html</id>
-        <summary type="html">Summary for /15.html</summary>
+        <id>http://localhost:8000/15.html</id>
+        <summary type="html">Summary for http://localhost:8000/15.html</summary>
     </entry>
     <entry>
-        <title>/16.html</title>
-        <link href="/16.html"/>
+        <title>http://localhost:8000/16.html</title>
+        <link href="http://localhost:8000/16.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/16.html</id>
-        <summary type="html">Summary for /16.html</summary>
+        <id>http://localhost:8000/16.html</id>
+        <summary type="html">Summary for http://localhost:8000/16.html</summary>
     </entry>
     <entry>
-        <title>/17.html</title>
-        <link href="/17.html"/>
+        <title>http://localhost:8000/17.html</title>
+        <link href="http://localhost:8000/17.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/17.html</id>
-        <summary type="html">Summary for /17.html</summary>
+        <id>http://localhost:8000/17.html</id>
+        <summary type="html">Summary for http://localhost:8000/17.html</summary>
     </entry>
     <entry>
-        <title>/18.html</title>
-        <link href="/18.html"/>
+        <title>http://localhost:8000/18.html</title>
+        <link href="http://localhost:8000/18.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/18.html</id>
-        <summary type="html">Summary for /18.html</summary>
+        <id>http://localhost:8000/18.html</id>
+        <summary type="html">Summary for http://localhost:8000/18.html</summary>
     </entry>
     <entry>
-        <title>/19.html</title>
-        <link href="/19.html"/>
+        <title>http://localhost:8000/19.html</title>
+        <link href="http://localhost:8000/19.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/19.html</id>
-        <summary type="html">Summary for /19.html</summary>
+        <id>http://localhost:8000/19.html</id>
+        <summary type="html">Summary for http://localhost:8000/19.html</summary>
     </entry>
     <entry>
-        <title>/20.html</title>
-        <link href="/20.html"/>
+        <title>http://localhost:8000/20.html</title>
+        <link href="http://localhost:8000/20.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/20.html</id>
-        <summary type="html">Summary for /20.html</summary>
+        <id>http://localhost:8000/20.html</id>
+        <summary type="html">Summary for http://localhost:8000/20.html</summary>
     </entry
 
 >
     <entry>
-        <title>/21.html</title>
-        <link href="/21.html"/>
+        <title>http://localhost:8000/21.html</title>
+        <link href="http://localhost:8000/21.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/21.html</id>
-        <summary type="html">Summary for /21.html</summary>
+        <id>http://localhost:8000/21.html</id>
+        <summary type="html">Summary for http://localhost:8000/21.html</summary>
     </entry>
     <entry>
-        <title>/22.html</title>
-        <link href="/22.html"/>
+        <title>http://localhost:8000/22.html</title>
+        <link href="http://localhost:8000/22.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/22.html</id>
-        <summary type="html">Summary for /22.html</summary>
+        <id>http://localhost:8000/22.html</id>
+        <summary type="html">Summary for http://localhost:8000/22.html</summary>
     </entry>
     <entry>
-        <title>/23.html</title>
-        <link href="/23.html"/>
+        <title>http://localhost:8000/23.html</title>
+        <link href="http://localhost:8000/23.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/23.html</id>
-        <summary type="html">Summary for /23.html</summary>
+        <id>http://localhost:8000/23.html</id>
+        <summary type="html">Summary for http://localhost:8000/23.html</summary>
     </entry>
     <entry>
-        <title>/24.html</title>
-        <link href="/24.html"/>
+        <title>http://localhost:8000/24.html</title>
+        <link href="http://localhost:8000/24.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/24.html</id>
-        <summary type="html">Summary for /24.html</summary>
+        <id>http://localhost:8000/24.html</id>
+        <summary type="html">Summary for http://localhost:8000/24.html</summary>
     </entry>
     <entry>
-        <title>/25.html</title>
-        <link href="/25.html"/>
+        <title>http://localhost:8000/25.html</title>
+        <link href="http://localhost:8000/25.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/25.html</id>
-        <summary type="html">Summary for /25.html</summary>
+        <id>http://localhost:8000/25.html</id>
+        <summary type="html">Summary for http://localhost:8000/25.html</summary>
     </entry>
     <entry>
-        <title>/26.html</title>
-        <link href="/26.html"/>
+        <title>http://localhost:8000/26.html</title>
+        <link href="http://localhost:8000/26.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/26.html</id>
-        <summary type="html">Summary for /26.html</summary>
+        <id>http://localhost:8000/26.html</id>
+        <summary type="html">Summary for http://localhost:8000/26.html</summary>
     </entry>
     <entry>
-        <title>/27.html</title>
-        <link href="/27.html"/>
+        <title>http://localhost:8000/27.html</title>
+        <link href="http://localhost:8000/27.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/27.html</id>
-        <summary type="html">Summary for /27.html</summary>
+        <id>http://localhost:8000/27.html</id>
+        <summary type="html">Summary for http://localhost:8000/27.html</summary>
     </entry>
     <entry>
-        <title>/28.html</title>
-        <link href="/28.html"/>
+        <title>http://localhost:8000/28.html</title>
+        <link href="http://localhost:8000/28.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/28.html</id>
-        <summary type="html">Summary for /28.html</summary>
+        <id>http://localhost:8000/28.html</id>
+        <summary type="html">Summary for http://localhost:8000/28.html</summary>
     </entry>
     <entry>
-        <title>/29.html</title>
-        <link href="/29.html"/>
+        <title>http://localhost:8000/29.html</title>
+        <link href="http://localhost:8000/29.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/29.html</id>
-        <summary type="html">Summary for /29.html</summary>
+        <id>http://localhost:8000/29.html</id>
+        <summary type="html">Summary for http://localhost:8000/29.html</summary>
     </entry>
     <entry>
-        <title>/30.html</title>
-        <link href="/30.html"/>
+        <title>http://localhost:8000/30.html</title>
+        <link href="http://localhost:8000/30.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/30.html</id>
-        <summary type="html">Summary for /30.html</summary>
+        <id>http://localhost:8000/30.html</id>
+        <summary type="html">Summary for http://localhost:8000/30.html</summary>
     </entry>
     <entry>
-        <title>/31.html</title>
-        <link href="/31.html"/>
+        <title>http://localhost:8000/31.html</title>
+        <link href="http://localhost:8000/31.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/31.html</id>
-        <summary type="html">Summary for /31.html</summary>
+        <id>http://localhost:8000/31.html</id>
+        <summary type="html">Summary for http://localhost:8000/31.html</summary>
     </entry>
     <entry>
-        <title>/32.html</title>
-        <link href="/32.html"/>
+        <title>http://localhost:8000/32.html</title>
+        <link href="http://localhost:8000/32.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/32.html</id>
-        <summary type="html">Summary for /32.html</summary>
+        <id>http://localhost:8000/32.html</id>
+        <summary type="html">Summary for http://localhost:8000/32.html</summary>
     </entry>
     <entry>
-        <title>/33.html</title>
-        <link href="/33.html"/>
+        <title>http://localhost:8000/33.html</title>
+        <link href="http://localhost:8000/33.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/33.html</id>
-        <summary type="html">Summary for /33.html</summary>
+        <id>http://localhost:8000/33.html</id>
+        <summary type="html">Summary for http://localhost:8000/33.html</summary>
     </entry>
     <entry>
-        <title>/34.html</title>
-        <link href="/34.html"/>
+        <title>http://localhost:8000/34.html</title>
+        <link href="http://localhost:8000/34.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/34.html</id>
-        <summary type="html">Summary for /34.html</summary>
+        <id>http://localhost:8000/34.html</id>
+        <summary type="html">Summary for http://localhost:8000/34.html</summary>
     </entry>
     <entry>
-        <title>/35.html</title>
-        <link href="/35.html"/>
+        <title>http://localhost:8000/35.html</title>
+        <link href="http://localhost:8000/35.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/35.html</id>
-        <summary type="html">Summary for /35.html</summary>
+        <id>http://localhost:8000/35.html</id>
+        <summary type="html">Summary for http://localhost:8000/35.html</summary>
     </entry>
     <entry>
-        <title>/36.html</title>
-        <link href="/36.html"/>
+        <title>http://localhost:8000/36.html</title>
+        <link href="http://localhost:8000/36.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/36.html</id>
-        <summary type="html">Summary for /36.html</summary>
+        <id>http://localhost:8000/36.html</id>
+        <summary type="html">Summary for http://localhost:8000/36.html</summary>
     </entry>
     <entry>
-        <title>/37.html</title>
-        <link href="/37.html"/>
+        <title>http://localhost:8000/37.html</title>
+        <link href="http://localhost:8000/37.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/37.html</id>
-        <summary type="html">Summary for /37.html</summary>
+        <id>http://localhost:8000/37.html</id>
+        <summary type="html">Summary for http://localhost:8000/37.html</summary>
     </entry>
     <entry>
-        <title>/38.html</title>
-        <link href="/38.html"/>
+        <title>http://localhost:8000/38.html</title>
+        <link href="http://localhost:8000/38.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/38.html</id>
-        <summary type="html">Summary for /38.html</summary>
+        <id>http://localhost:8000/38.html</id>
+        <summary type="html">Summary for http://localhost:8000/38.html</summary>
     </entry>
     <entry>
-        <title>/39.html</title>
-        <link href="/39.html"/>
+        <title>http://localhost:8000/39.html</title>
+        <link href="http://localhost:8000/39.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/39.html</id>
-        <summary type="html">Summary for /39.html</summary>
+        <id>http://localhost:8000/39.html</id>
+        <summary type="html">Summary for http://localhost:8000/39.html</summary>
     </entry>
     <entry>
-        <title>/40.html</title>
-        <link href="/40.html"/>
+        <title>http://localhost:8000/40.html</title>
+        <link href="http://localhost:8000/40.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/40.html</id>
-        <summary type="html">Summary for /40.html</summary>
+        <id>http://localhost:8000/40.html</id>
+        <summary type="html">Summary for http://localhost:8000/40.html</summary>
     </entry>
     <entry>
-        <title>/41.html</title>
-        <link href="/41.html"/>
+        <title>http://localhost:8000/41.html</title>
+        <link href="http://localhost:8000/41.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/41.html</id>
-        <summary type="html">Summary for /41.html</summary>
+        <id>http://localhost:8000/41.html</id>
+        <summary type="html">Summary for http://localhost:8000/41.html</summary>
     </entry>
     <entry>
-        <title>/42.html</title>
+        <title>http://localhost:8000/42.html</title>
         <link href="http://localhost:8000
 
 /42.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/42.html</id>
-        <summary type="html">Summary for /42.html</summary>
+        <id>http://localhost:8000/42.html</id>
+        <summary type="html">Summary for http://localhost:8000/42.html</summary>
     </entry>
     <entry>
-        <title>/43.html</title>
-        <link href="/43.html"/>
+        <title>http://localhost:8000/43.html</title>
+        <link href="http://localhost:8000/43.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/43.html</id>
-        <summary type="html">Summary for /43.html</summary>
+        <id>http://localhost:8000/43.html</id>
+        <summary type="html">Summary for http://localhost:8000/43.html</summary>
     </entry>
     <entry>
-        <title>/44.html</title>
-        <link href="/44.html"/>
+        <title>http://localhost:8000/44.html</title>
+        <link href="http://localhost:8000/44.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/44.html</id>
-        <summary type="html">Summary for /44.html</summary>
+        <id>http://localhost:8000/44.html</id>
+        <summary type="html">Summary for http://localhost:8000/44.html</summary>
     </entry>
     <entry>
-        <title>/45.html</title>
-        <link href="/45.html"/>
+        <title>http://localhost:8000/45.html</title>
+        <link href="http://localhost:8000/45.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/45.html</id>
-        <summary type="html">Summary for /45.html</summary>
+        <id>http://localhost:8000/45.html</id>
+        <summary type="html">Summary for http://localhost:8000/45.html</summary>
     </entry>
     <entry>
-        <title>/46.html</title>
-        <link href="/46.html"/>
+        <title>http://localhost:8000/46.html</title>
+        <link href="http://localhost:8000/46.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/46.html</id>
-        <summary type="html">Summary for /46.html</summary>
+        <id>http://localhost:8000/46.html</id>
+        <summary type="html">Summary for http://localhost:8000/46.html</summary>
     </entry>
     <entry>
-        <title>/47.html</title>
-        <link href="/47.html"/>
+        <title>http://localhost:8000/47.html</title>
+        <link href="http://localhost:8000/47.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/47.html</id>
-        <summary type="html">Summary for /47.html</summary>
+        <id>http://localhost:8000/47.html</id>
+        <summary type="html">Summary for http://localhost:8000/47.html</summary>
     </entry>
     <entry>
-        <title>/48.html</title>
-        <link href="/48.html"/>
+        <title>http://localhost:8000/48.html</title>
+        <link href="http://localhost:8000/48.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/48.html</id>
-        <summary type="html">Summary for /48.html</summary>
+        <id>http://localhost:8000/48.html</id>
+        <summary type="html">Summary for http://localhost:8000/48.html</summary>
     </entry>
     <entry>
-        <title>/49.html</title>
-        <link href="/49.html"/>
+        <title>http://localhost:8000/49.html</title>
+        <link href="http://localhost:8000/49.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/49.html</id>
-        <summary type="html">Summary for /49.html</summary>
+        <id>http://localhost:8000/49.html</id>
+        <summary type="html">Summary for http://localhost:8000/49.html</summary>
     </entry>
     <entry>
-        <title>/50.html</title>
-        <link href="/50.html"/>
+        <title>http://localhost:8000/50.html</title>
+        <link href="http://localhost:8000/50.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/50.html</id>
-        <summary type="html">Summary for /50.html</summary>
+        <id>http://localhost:8000/50.html</id>
+        <summary type="html">Summary for http://localhost:8000/50.html</summary>
     </entry>
     <entry>
-        <title>/51.html</title>
-        <link href="/51.html"/>
+        <title>http://localhost:8000/51.html</title>
+        <link href="http://localhost:8000/51.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/51.html</id>
-        <summary type="html">Summary for /51.html</summary>
+        <id>http://localhost:8000/51.html</id>
+        <summary type="html">Summary for http://localhost:8000/51.html</summary>
     </entry>
     <entry>
-        <title>/52.html</title>
-        <link href="/52.html"/>
+        <title>http://localhost:8000/52.html</title>
+        <link href="http://localhost:8000/52.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/52.html</id>
-        <summary type="html">Summary for /52.html</summary>
+        <id>http://localhost:8000/52.html</id>
+        <summary type="html">Summary for http://localhost:8000/52.html</summary>
     </entry>
     <entry>
-        <title>/53.html</title>
-        <link href="/53.html"/>
+        <title>http://localhost:8000/53.html</title>
+        <link href="http://localhost:8000/53.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/53.html</id>
-        <summary type="html">Summary for /53.html</summary>
+        <id>http://localhost:8000/53.html</id>
+        <summary type="html">Summary for http://localhost:8000/53.html</summary>
     </entry>
     <entry>
-        <title>/54.html</title>
-        <link href="/54.html"/>
+        <title>http://localhost:8000/54.html</title>
+        <link href="http://localhost:8000/54.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/54.html</id>
-        <summary type="html">Summary for /54.html</summary>
+        <id>http://localhost:8000/54.html</id>
+        <summary type="html">Summary for http://localhost:8000/54.html</summary>
     </entry>
     <entry>
-        <title>/55.html</title>
-        <link href="/55.html"/>
+        <title>http://localhost:8000/55.html</title>
+        <link href="http://localhost:8000/55.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/55.html</id>
-        <summary type="html">Summary for /55.html</summary>
+        <id>http://localhost:8000/55.html</id>
+        <summary type="html">Summary for http://localhost:8000/55.html</summary>
     </entry>
     <entry>
-        <title>/56.html</title>
-        <link href="/56.html"/>
+        <title>http://localhost:8000/56.html</title>
+        <link href="http://localhost:8000/56.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/56.html</id>
-        <summary type="html">Summary for /56.html</summary>
+        <id>http://localhost:8000/56.html</id>
+        <summary type="html">Summary for http://localhost:8000/56.html</summary>
     </entry>
     <entry>
-        <title>/57.html</title>
-        <link href="/57.html"/>
+        <title>http://localhost:8000/57.html</title>
+        <link href="http://localhost:8000/57.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/57.html</id>
-        <summary type="html">Summary for /57.html</summary>
+        <id>http://localhost:8000/57.html</id>
+        <summary type="html">Summary for http://localhost:8000/57.html</summary>
     </entry>
     <entry>
-        <title>/58.html</title>
-        <link href="/58.html"/>
+        <title>http://localhost:8000/58.html</title>
+        <link href="http://localhost:8000/58.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/58.html</id>
-        <summary type="html">Summary for /58.html</summary>
+        <id>http://localhost:8000/58.html</id>
+        <summary type="html">Summary for http://localhost:8000/58.html</summary>
     </entry>
     <entry>
-        <title>/59.html</title>
-        <link href="/59.html"/>
+        <title>http://localhost:8000/59.html</title>
+        <link href="http://localhost:8000/59.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/59.html</id>
-        <summary type="html">Summary for /59.html</summary>
+        <id>http://localhost:8000/59.html</id>
+        <summary type="html">Summary for http://localhost:8000/59.html</summary>
     </entry>
     <entry>
-        <title>/60.html</title>
-        <link href="/60.html"/>
+        <title>http://localhost:8000/60.html</title>
+        <link href="http://localhost:8000/60.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/60.html</id>
-        <summary type="html">Summary for /60.html</summary>
+        <id>http://localhost:8000/60.html</id>
+        <summary type="html">Summary for http://localhost:8000/60.html</summary>
     </entry>
     <entry>
-        <title>/61.html</title>
-        <link href="/61.html"/>
+        <title>http://localhost:8000/61.html</title>
+        <link href="http://localhost:8000/61.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/61.html</id>
-        <summary type="html">Summary for /61.html</summary>
+        <id>http://localhost:8000/61.html</id>
+        <summary type="html">Summary for http://localhost:8000/61.html</summary>
     </entry>
     <entry>
-        <title>/62.html</title>
-        <link href="/62.html"/>
+        <title>http://localhost:8000/62.html</title>
+        <link href="http://localhost:8000/62.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/62.html</id>
-        <summary type="html">Summary for /62.html</summary>
+        <id>http://localhost:8000/62.html</id>
+        <summary type="html">Summary for http://localhost:8000/62.html</summary>
     </entry>
     <entry>
-        <title>/63.html</title>
-        <link href="/63.html"/>
+        <title>http://localhost:8000/63.html</title>
+        <link href="http://localhost:8000/63.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
         <id>http://localhost:
 
 8000/63.html</id>
-        <summary type="html">Summary for /63.html</summary>
+        <summary type="html">Summary for http://localhost:8000/63.html</summary>
     </entry>
     <entry>
-        <title>/64.html</title>
-        <link href="/64.html"/>
+        <title>http://localhost:8000/64.html</title>
+        <link href="http://localhost:8000/64.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/64.html</id>
-        <summary type="html">Summary for /64.html</summary>
+        <id>http://localhost:8000/64.html</id>
+        <summary type="html">Summary for http://localhost:8000/64.html</summary>
     </entry>
     <entry>
-        <title>/65.html</title>
-        <link href="/65.html"/>
+        <title>http://localhost:8000/65.html</title>
+        <link href="http://localhost:8000/65.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/65.html</id>
-        <summary type="html">Summary for /65.html</summary>
+        <id>http://localhost:8000/65.html</id>
+        <summary type="html">Summary for http://localhost:8000/65.html</summary>
     </entry>
     <entry>
-        <title>/66.html</title>
-        <link href="/66.html"/>
+        <title>http://localhost:8000/66.html</title>
+        <link href="http://localhost:8000/66.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/66.html</id>
-        <summary type="html">Summary for /66.html</summary>
+        <id>http://localhost:8000/66.html</id>
+        <summary type="html">Summary for http://localhost:8000/66.html</summary>
     </entry>
     <entry>
-        <title>/67.html</title>
-        <link href="/67.html"/>
+        <title>http://localhost:8000/67.html</title>
+        <link href="http://localhost:8000/67.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/67.html</id>
-        <summary type="html">Summary for /67.html</summary>
+        <id>http://localhost:8000/67.html</id>
+        <summary type="html">Summary for http://localhost:8000/67.html</summary>
     </entry>
     <entry>
-        <title>/68.html</title>
-        <link href="/68.html"/>
+        <title>http://localhost:8000/68.html</title>
+        <link href="http://localhost:8000/68.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/68.html</id>
-        <summary type="html">Summary for /68.html</summary>
+        <id>http://localhost:8000/68.html</id>
+        <summary type="html">Summary for http://localhost:8000/68.html</summary>
     </entry>
     <entry>
-        <title>/69.html</title>
-        <link href="/69.html"/>
+        <title>http://localhost:8000/69.html</title>
+        <link href="http://localhost:8000/69.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/69.html</id>
-        <summary type="html">Summary for /69.html</summary>
+        <id>http://localhost:8000/69.html</id>
+        <summary type="html">Summary for http://localhost:8000/69.html</summary>
     </entry>
     <entry>
-        <title>/70.html</title>
-        <link href="/70.html"/>
+        <title>http://localhost:8000/70.html</title>
+        <link href="http://localhost:8000/70.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/70.html</id>
-        <summary type="html">Summary for /70.html</summary>
+        <id>http://localhost:8000/70.html</id>
+        <summary type="html">Summary for http://localhost:8000/70.html</summary>
     </entry>
     <entry>
-        <title>/71.html</title>
-        <link href="/71.html"/>
+        <title>http://localhost:8000/71.html</title>
+        <link href="http://localhost:8000/71.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/71.html</id>
-        <summary type="html">Summary for /71.html</summary>
+        <id>http://localhost:8000/71.html</id>
+        <summary type="html">Summary for http://localhost:8000/71.html</summary>
     </entry>
     <entry>
-        <title>/72.html</title>
-        <link href="/72.html"/>
+        <title>http://localhost:8000/72.html</title>
+        <link href="http://localhost:8000/72.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/72.html</id>
-        <summary type="html">Summary for /72.html</summary>
+        <id>http://localhost:8000/72.html</id>
+        <summary type="html">Summary for http://localhost:8000/72.html</summary>
     </entry>
     <entry>
-        <title>/73.html</title>
-        <link href="/73.html"/>
+        <title>http://localhost:8000/73.html</title>
+        <link href="http://localhost:8000/73.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/73.html</id>
-        <summary type="html">Summary for /73.html</summary>
+        <id>http://localhost:8000/73.html</id>
+        <summary type="html">Summary for http://localhost:8000/73.html</summary>
     </entry>
     <entry>
-        <title>/74.html</title>
-        <link href="/74.html"/>
+        <title>http://localhost:8000/74.html</title>
+        <link href="http://localhost:8000/74.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/74.html</id>
-        <summary type="html">Summary for /74.html</summary>
+        <id>http://localhost:8000/74.html</id>
+        <summary type="html">Summary for http://localhost:8000/74.html</summary>
     </entry>
     <entry>
-        <title>/75.html</title>
-        <link href="/75.html"/>
+        <title>http://localhost:8000/75.html</title>
+        <link href="http://localhost:8000/75.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/75.html</id>
-        <summary type="html">Summary for /75.html</summary>
+        <id>http://localhost:8000/75.html</id>
+        <summary type="html">Summary for http://localhost:8000/75.html</summary>
     </entry>
     <entry>
-        <title>/76.html</title>
-        <link href="/76.html"/>
+        <title>http://localhost:8000/76.html</title>
+        <link href="http://localhost:8000/76.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/76.html</id>
-        <summary type="html">Summary for /76.html</summary>
+        <id>http://localhost:8000/76.html</id>
+        <summary type="html">Summary for http://localhost:8000/76.html</summary>
     </entry>
     <entry>
-        <title>/77.html</title>
-        <link href="/77.html"/>
+        <title>http://localhost:8000/77.html</title>
+        <link href="http://localhost:8000/77.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/77.html</id>
-        <summary type="html">Summary for /77.html</summary>
+        <id>http://localhost:8000/77.html</id>
+        <summary type="html">Summary for http://localhost:8000/77.html</summary>
     </entry>
     <entry>
-        <title>/78.html</title>
-        <link href="/78.html"/>
+        <title>http://localhost:8000/78.html</title>
+        <link href="http://localhost:8000/78.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/78.html</id>
-        <summary type="html">Summary for /78.html</summary>
+        <id>http://localhost:8000/78.html</id>
+        <summary type="html">Summary for http://localhost:8000/78.html</summary>
     </entry>
     <entry>
-        <title>/79.html</title>
-        <link href="/79.html"/>
+        <title>http://localhost:8000/79.html</title>
+        <link href="http://localhost:8000/79.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/79.html</id>
-        <summary type="html">Summary for /79.html</summary>
+        <id>http://localhost:8000/79.html</id>
+        <summary type="html">Summary for http://localhost:8000/79.html</summary>
     </entry>
     <entry>
-        <title>/80.html</title>
-        <link href="/80.html"/>
+        <title>http://localhost:8000/80.html</title>
+        <link href="http://localhost:8000/80.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/80.html</id>
-        <summary type="html">Summary for /80.html</summary>
+        <id>http://localhost:8000/80.html</id>
+        <summary type="html">Summary for http://localhost:8000/80.html</summary>
     </entry>
     <entry>
-        <title>/81.html</title>
-        <link href="/81.html"/>
+        <title>http://localhost:8000/81.html</title>
+        <link href="http://localhost:8000/81.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/81.html</id>
-        <summary type="html">Summary for /81.html</summary>
+        <id>http://localhost:8000/81.html</id>
+        <summary type="html">Summary for http://localhost:8000/81.html</summary>
     </entry>
     <entry>
-        <title>/82.html</title>
-        <link href="/82.html"/>
+        <title>http://localhost:8000/82.html</title>
+        <link href="http://localhost:8000/82.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/82.html</id>
-        <summary type="html">Summary for /82.html</summary>
+        <id>http://localhost:8000/82.html</id>
+        <summary type="html">Summary for http://localhost:8000/82.html</summary>
     </entry>
     <entry>
-        <title>/83.html</title>
-        <link href="/83.html"/>
+        <title>http://localhost:8000/83.html</title>
+        <link href="http://localhost:8000/83.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/83.html</id>
-        <summary type="html">Summary for /83.html</summary>
+        <id>http://localhost:8000/83.html</id>
+        <summary type="html">Summary for http://localhost:8000/83.html</summary>
     </entry>
     <entry>
-        <title>/84.html</title>
-        <link href="/84.html"/>
+        <title>http://localhost:8000/84.html</title>
+        <link href="http://localhost:8000/84.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/84.html</id>
-        <summary type="html">Summary for /84.html</summary>
+        <id>http://localhost:8000/84.html</id>
+        <summary type="html">Summary for http://localhost:8000/84.html</summary>
     </entry
 
 >
     <entry>
-        <title>/85.html</title>
-        <link href="/85.html"/>
+        <title>http://localhost:8000/85.html</title>
+        <link href="http://localhost:8000/85.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/85.html</id>
-        <summary type="html">Summary for /85.html</summary>
+        <id>http://localhost:8000/85.html</id>
+        <summary type="html">Summary for http://localhost:8000/85.html</summary>
     </entry>
     <entry>
-        <title>/86.html</title>
-        <link href="/86.html"/>
+        <title>http://localhost:8000/86.html</title>
+        <link href="http://localhost:8000/86.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/86.html</id>
-        <summary type="html">Summary for /86.html</summary>
+        <id>http://localhost:8000/86.html</id>
+        <summary type="html">Summary for http://localhost:8000/86.html</summary>
     </entry>
     <entry>
-        <title>/87.html</title>
-        <link href="/87.html"/>
+        <title>http://localhost:8000/87.html</title>
+        <link href="http://localhost:8000/87.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/87.html</id>
-        <summary type="html">Summary for /87.html</summary>
+        <id>http://localhost:8000/87.html</id>
+        <summary type="html">Summary for http://localhost:8000/87.html</summary>
     </entry>
     <entry>
-        <title>/88.html</title>
-        <link href="/88.html"/>
+        <title>http://localhost:8000/88.html</title>
+        <link href="http://localhost:8000/88.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/88.html</id>
-        <summary type="html">Summary for /88.html</summary>
+        <id>http://localhost:8000/88.html</id>
+        <summary type="html">Summary for http://localhost:8000/88.html</summary>
     </entry>
     <entry>
-        <title>/89.html</title>
-        <link href="/89.html"/>
+        <title>http://localhost:8000/89.html</title>
+        <link href="http://localhost:8000/89.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/89.html</id>
-        <summary type="html">Summary for /89.html</summary>
+        <id>http://localhost:8000/89.html</id>
+        <summary type="html">Summary for http://localhost:8000/89.html</summary>
     </entry>
     <entry>
-        <title>/90.html</title>
-        <link href="/90.html"/>
+        <title>http://localhost:8000/90.html</title>
+        <link href="http://localhost:8000/90.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/90.html</id>
-        <summary type="html">Summary for /90.html</summary>
+        <id>http://localhost:8000/90.html</id>
+        <summary type="html">Summary for http://localhost:8000/90.html</summary>
     </entry>
     <!-- <entry>
-        <title>/91.html</title>
-        <link href="/91.html"/>
+        <title>http://localhost:8000/91.html</title>
+        <link href="http://localhost:8000/91.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/91.html</id>
-        <summary type="html">Summary for /91.html</summary>
+        <id>http://localhost:8000/91.html</id>
+        <summary type="html">Summary for http://localhost:8000/91.html</summary>
     </entry>
     <entry>
-        <title>/92.html</title>
-        <link href="/92.html"/>
+        <title>http://localhost:8000/92.html</title>
+        <link href="http://localhost:8000/92.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/92.html</id>
-        <summary type="html">Summary for /92.html</summary>
+        <id>http://localhost:8000/92.html</id>
+        <summary type="html">Summary for http://localhost:8000/92.html</summary>
     </entry>
     <entry>
-        <title>/93.html</title>
-        <link href="/93.html"/>
+        <title>http://localhost:8000/93.html</title>
+        <link href="http://localhost:8000/93.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/93.html</id>
-        <summary type="html">Summary for /93.html</summary>
+        <id>http://localhost:8000/93.html</id>
+        <summary type="html">Summary for http://localhost:8000/93.html</summary>
     </entry>
     <entry>
-        <title>/94.html</title>
-        <link href="/94.html"/>
+        <title>http://localhost:8000/94.html</title>
+        <link href="http://localhost:8000/94.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/94.html</id>
-        <summary type="html">Summary for /94.html</summary>
+        <id>http://localhost:8000/94.html</id>
+        <summary type="html">Summary for http://localhost:8000/94.html</summary>
     </entry>
     <entry>
-        <title>/95.html</title>
-        <link href="/95.html"/>
+        <title>http://localhost:8000/95.html</title>
+        <link href="http://localhost:8000/95.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/95.html</id>
-        <summary type="html">Summary for /95.html</summary>
+        <id>http://localhost:8000/95.html</id>
+        <summary type="html">Summary for http://localhost:8000/95.html</summary>
     </entry>
     <entry>
-        <title>/96.html</title>
-        <link href="/96.html"/>
+        <title>http://localhost:8000/96.html</title>
+        <link href="http://localhost:8000/96.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/96.html</id>
-        <summary type="html">Summary for /96.html</summary>
+        <id>http://localhost:8000/96.html</id>
+        <summary type="html">Summary for http://localhost:8000/96.html</summary>
     </entry>
     <entry>
-        <title>/97.html</title>
-        <link href="/97.html"/>
+        <title>http://localhost:8000/97.html</title>
+        <link href="http://localhost:8000/97.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/97.html</id>
-        <summary type="html">Summary for /97.html</summary>
+        <id>http://localhost:8000/97.html</id>
+        <summary type="html">Summary for http://localhost:8000/97.html</summary>
     </entry>
     <entry>
-        <title>/98.html</title>
-        <link href="/98.html"/>
+        <title>http://localhost:8000/98.html</title>
+        <link href="http://localhost:8000/98.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/98.html</id>
-        <summary type="html">Summary for /98.html</summary>
+        <id>http://localhost:8000/98.html</id>
+        <summary type="html">Summary for http://localhost:8000/98.html</summary>
     </entry>
     <entry>
-        <title>/99.html</title>
-        <link href="/99.html"/>
+        <title>http://localhost:8000/99.html</title>
+        <link href="http://localhost:8000/99.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/99.html</id>
-        <summary type="html">Summary for /99.html</summary>
+        <id>http://localhost:8000/99.html</id>
+        <summary type="html">Summary for http://localhost:8000/99.html</summary>
     </entry>
     <entry>
-        <title>/100.html</title>
-        <link href="/100.html"/>
+        <title>http://localhost:8000/100.html</title>
+        <link href="http://localhost:8000/100.html"/>
         <updated>2024-06-28T00:00:00Z</updated>
-        <id>/100.html</id>
-        <summary type="html">Summary for /100.html</summary>
+        <id>http://localhost:8000/100.html</id>
+        <summary type="html">Summary for http://localhost:8000/100.html</summary>
     </entry> -->
 </feed>
