@@ -16,13 +16,15 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '16'
+          node-version: '16'  # Ensure this matches your local Node.js version
 
       - name: Install dependencies
         run: npm install
 
-      - name: Generate HTML files
-        run: ./generate_html_files.sh
+      - name: Build project
+        run: |
+          npm run build
+          npm run export
 
       - name: List directory contents
         run: ls -la ./out
@@ -31,4 +33,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./out
+          publish_dir: ./out  # Directory containing your static files
+a
