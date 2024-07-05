@@ -16,7 +16,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '16'  # Adjust as per your Node.js version requirement
+          node-version: '18'  # Adjust as per your Node.js version requirement (ensure >= v18.17.0 for Next.js)
 
       - name: Install Dependencies
         run: npm install
@@ -30,4 +30,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir:  my-nextjs-app/out  # Adjust based on your build output directory
+          publish_dir: my-nextjs-app/out  # Adjust based on your build output directory
