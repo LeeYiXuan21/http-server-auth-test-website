@@ -29,22 +29,6 @@
 
     <table border="1">
         <tr>
-          <th>Main test cases:</th>
-        </tr>
-        <tr>
-          <td>crawl Domain/Intelligent on this page</td>
-        </tr>
-        <tr>
-          <td>crawl Sitemap on the various sitemaps</td>
-        </tr>
-        <tr>
-          <td>Custom flow from this page</td>
-        </tr>
-      </table>
-      <br>
-      <br>
-    <table border="1">
-        <tr>
           <th>Overview of this website</th>
         </tr>
         <tr>
@@ -54,19 +38,10 @@
           <td>Pages /1.html to /100.html</td>
         </tr>
         <tr>
-            <td>Home page with Basic Auth</td>
-        </tr>
-        <tr>
-            <td>Pages /basicauth1.html to /basicauth100.html with Basic Auth</td>
-        </tr>
-        <tr>
           <td>Sitemaps in /sitemap followed by .xml, .rss, .atom</td>
         </tr>
         <tr>
-            <td>Sitemaps in /basicauthsitemap followed by .xml with Basic Auth</td>
-         </tr>
-        <tr>
-          <td>/1.html is to test blacklist flag hence should not be scanned</td>
+          <td>There is a duplicate of all webpages of this website with basic auth at /basicauth </td>
         </tr>
       </table>
       <p>*Note for devs: To ensure this website only has ~100 pages, when adding more test cases, please remove links from the "More anchor tags" section accordingly, & update sitemaps accordingly if needed</p>
@@ -122,11 +97,15 @@
         role="link"
       >
         Page 6: url in datapath attribute
-      </button>
-      <br>
-      <br>
-      <br>
-      <h2><u>More anchor tags [remove links from here when adding more test cases to keep website to only ~100 pages]</u></h2>
+        </button>
+        <br>
+        <br>
+        <br>
+        <h2><u>Anchor tags to links with same domain, different hostname</u></h2>
+        <a id="anchor-tag-with-href" href="https://lrperzus.github.io/purple-a11y-strategy-test/" role="link">
+            Anchor tag with href to https://lrperzus.github.io/purple-a11y-strategy-test/
+        </a>
+    <h2><u>More anchor tags [remove links from here when adding more test cases to keep website to only ~100 pages]</u></h2>
       <div style="display: flex; flex-direction: column;">
         </a>
         <a id="anchor-tag-with-href" href="/7.html" role="link">
@@ -381,7 +360,7 @@
         <a id="anchor-tag-with-href" href="/90.html" role="link">
             Anchor tag with href to page 90
         </a>
-        <a id="anchor-tag-with-href" href="/91.html" role="link">
+        <!-- <a id="anchor-tag-with-href" href="/91.html" role="link">
             Anchor tag with href to page 91
         </a>
         <a id="anchor-tag-with-href" href="/92.html" role="link">
@@ -410,7 +389,7 @@
         </a>
         <a id="anchor-tag-with-href" href="/100.html" role="link">
             Anchor tag with href to page 100
-        </a>
+        </a> -->
     </div>
     
 
