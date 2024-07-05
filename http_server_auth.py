@@ -2,9 +2,9 @@ from http.server import HTTPServer, SimpleHTTPRequestHandler
 import base64
 import os
 
-# Define your username and password from environment variables or default values
-USERNAME = os.getenv('BASIC_AUTH_USERNAME', 'username')
-PASSWORD = os.getenv('BASIC_AUTH_PASSWORD', 'password')
+# Define your username and password here
+USERNAME = "username"
+PASSWORD = "password"
 
 class AuthHTTPRequestHandler(SimpleHTTPRequestHandler):
     """ Main class to present webpages and authentication. """
@@ -24,7 +24,7 @@ class AuthHTTPRequestHandler(SimpleHTTPRequestHandler):
 
     def do_AUTHHEAD(self):
         self.send_response(401)
-        self.send_header("WWW-Authenticate", 'Basic realm="Secure Area"')
+        self.send_header("WWW-Authenticate", 'Basic realm="Test"')
         self.send_header("Content-type", "text/html")
         self.end_headers()
 
@@ -39,15 +39,15 @@ class AuthHTTPRequestHandler(SimpleHTTPRequestHandler):
 
     def requires_authentication(self):
         """ Check if authentication is required based on requested path. """
-        return self.path.startswith("/basicauth") and (self.path.endswith(".html") or self.path.endswith(".xml"))
+        if self.path.startswith("/basicauth") and self.path.endswith(".html"):
+            return True
+        if self.path.startswith("/basicauth") and self.path.endswith(".xml"):
+            return True
+        return False
+
 
 if __name__ == "__main__":
     import argparse
-    import logging
-
-    # Set up logging
-    logging.basicConfig(level=logging.INFO)
-    logger = logging.getLogger(__name__)
 
     parser = argparse.ArgumentParser()
     parser.add_argument("--bind", "-b", metavar="ADDRESS", default="127.0.0.1",
@@ -60,5 +60,5 @@ if __name__ == "__main__":
     httpd = HTTPServer(server_address, AuthHTTPRequestHandler)
 
     server_url = f"http://{args.bind}:{args.port}/"
-    logger.info(f"Starting httpd server at: {server_url}")
+    print(f"Starting httpd server at: {server_url}")
     httpd.serve_forever()

@@ -1,14 +1,14 @@
+// middleware.js
+
 import { NextResponse } from 'next/server';
 
-// Ensure username and password are set from environment variables
-const username = process.env.BASIC_AUTH_USERNAME || 'default_username';
-const password = process.env.BASIC_AUTH_PASSWORD || 'default_password';
+const username = process.env.BASIC_AUTH_USERNAME;
+const password = process.env.BASIC_AUTH_PASSWORD;
 
 export function middleware(req) {
   const authHeader = req.headers.get('authorization');
 
   if (!authHeader) {
-    console.warn('No Authorization header found');
     return new NextResponse('Unauthorized', {
       status: 401,
       headers: {
@@ -24,7 +24,6 @@ export function middleware(req) {
     return NextResponse.next();
   }
 
-  console.warn(`Unauthorized access attempt: username: ${user}, password: ${pass}`);
   return new NextResponse('Unauthorized', {
     status: 401,
     headers: {
