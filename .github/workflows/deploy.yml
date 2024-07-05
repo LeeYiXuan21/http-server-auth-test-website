@@ -20,14 +20,14 @@ jobs:
 
       - name: Install Dependencies
         run: npm install
-        working-directory: leeyixuan21.github.io/my-nextjs-app  # Ensure this matches your project's root directory
+        working-directory: my-nextjs-app  # Ensure this matches your project's root directory
 
       - name: Build Project
         run: npm run build
-        working-directory: leeyixuan21.github.io/my-nextjs-app  # Adjust if necessary
+        working-directory: my-nextjs-app  # Adjust if necessary
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: leeyixuan21.github.io/my-nextjs-app/out  # Adjust based on your build output directory
+          publish_dir:  my-nextjs-app/out  # Adjust based on your build output directory
