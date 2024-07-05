@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Build and Deploy
 
 on:
   push:
@@ -16,21 +16,18 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '16'  # Ensure this matches your local Node.js version
+          node-version: '16'  # Adjust as per your Node.js version requirement
 
-      - name: Install dependencies
+      - name: Install Dependencies
         run: npm install
+        working-directory: leeyixuan21.github.io/my-nextjs-app  # Ensure this matches your project's root directory
 
-      - name: Build project
-        run: |
-          npm run build
-          npm run export
-
-      - name: List directory contents
-        run: ls -la ./out
+      - name: Build Project
+        run: npm run build
+        working-directory: leeyixuan21.github.io/my-nextjs-app  # Adjust if necessary
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./out  # Directory containing your static files
+          publish_dir: leeyixuan21.github.io/my-nextjs-app/out  # Adjust based on your build output directory
