@@ -5,5 +5,3 @@ module.exports = {
     basePath: process.env.NODE_ENV === 'production' ? '/my-nextjs-app' : '',
     assetPrefix: process.env.NODE_ENV === 'production' ? '/my-nextjs-app/' : ''
   };
-  
-//test

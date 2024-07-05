@@ -26,6 +26,14 @@ jobs:
         run: npm run build
         working-directory: my-nextjs-app  # Adjust if necessary
 
+      - name: Set up environment variables
+        env:
+          BASIC_AUTH_USERNAME: ${{ secrets.BASIC_AUTH_USERNAME }}
+          BASIC_AUTH_PASSWORD: ${{ secrets.BASIC_AUTH_PASSWORD }}
+        run: |
+          echo "Setting up basic authentication environment variables"
+          # Optionally, set environment variables if needed
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
