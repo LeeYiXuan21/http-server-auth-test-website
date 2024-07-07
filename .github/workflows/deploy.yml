@@ -26,14 +26,10 @@ jobs:
         run: npm run build
         working-directory: my-nextjs-app  # Adjust if necessary
 
-      - name: Set up environment variables
-        env:
-          BASIC_AUTH_USERNAME: ${{ secrets.BASIC_AUTH_USERNAME }}
-          BASIC_AUTH_PASSWORD: ${{ secrets.BASIC_AUTH_PASSWORD }}
+      - name: Load Environment Variables
         run: |
-          echo "Setting up basic authentication environment variables"
-          echo "BASIC_AUTH_USERNAME=${{ secrets.BASIC_AUTH_USERNAME }}" >> $GITHUB_ENV
-          echo "BASIC_AUTH_PASSWORD=${{ secrets.BASIC_AUTH_PASSWORD }}" >> $GITHUB_ENV
+          echo "Loading environment variables from .env.local"
+          source my-nextjs-app/.env.local
 
       - name: Print Environment Variables
         run: |
@@ -44,4 +40,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: my-nextjs-app/out  # Adjust based on your build output directory
+          publish_dir: my-nextjs-app  # Adjust based on your build output directory
