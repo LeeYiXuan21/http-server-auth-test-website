@@ -8,6 +8,7 @@ export function middleware(req) {
   console.log(`Authorization header received: ${authHeader}`);
 
   if (!authHeader) {
+    console.log("No Authorization header received");
     return new NextResponse('Unauthorized', {
       status: 401,
       headers: {
@@ -18,6 +19,7 @@ export function middleware(req) {
 
   const auth = authHeader.split(' ')[1];
   const [user, pass] = Buffer.from(auth, 'base64').toString().split(':');
+  console.log(`Decoded username: ${user}, password: ${pass}`);
 
   if (user === username && pass === password) {
     return NextResponse.next();

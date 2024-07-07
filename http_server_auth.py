@@ -1,6 +1,5 @@
 from http.server import HTTPServer, SimpleHTTPRequestHandler
 import base64
-import os
 import logging
 
 # Add this at the beginning of AuthHTTPRequestHandler
@@ -12,14 +11,6 @@ PASSWORD = "password"
 
 class AuthHTTPRequestHandler(SimpleHTTPRequestHandler):
     """ Main class to present webpages and authentication. """
-
-    # def authenticate(self):
-    #     auth_header = self.headers.get("Authorization")
-    #     if auth_header:
-    #         auth_token = auth_header.split(maxsplit=1)[-1]
-    #         expected_auth = base64.b64encode(f"{USERNAME}:{PASSWORD}".encode()).decode()
-    #         return auth_token == expected_auth
-    #     return False
 
     def authenticate(self):
         auth_header = self.headers.get("Authorization")
