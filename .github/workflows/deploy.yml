@@ -29,7 +29,7 @@ jobs:
       - name: Load Environment Variables
         run: |
           echo "Loading environment variables from .env.local"
-          source .env.local
+          source my-nextjs-app/.env.local
 
       - name: Print Environment Variables
         run: |
