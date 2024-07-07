@@ -1,35 +1,23 @@
-import { NextResponse } from 'next/server';
+// middleware.js
+import base64 from 'base-64';
 
-const username = process.env.BASIC_AUTH_USERNAME;
-const password = process.env.BASIC_AUTH_PASSWORD;
+const USERNAME = process.env.BASIC_AUTH_USERNAME;
+const PASSWORD = process.env.BASIC_AUTH_PASSWORD;
 
-export function middleware(req) {
-  const authHeader = req.headers.get('authorization');
-  console.log(`Authorization header received: ${authHeader}`);
-
-  if (!authHeader) {
-    console.log("No Authorization header received");
-    return new NextResponse('Unauthorized', {
-      status: 401,
-      headers: {
-        'WWW-Authenticate': 'Basic realm="Secure Area"'
-      }
-    });
-  }
-
-  const auth = authHeader.split(' ')[1];
-  const [user, pass] = Buffer.from(auth, 'base64').toString().split(':');
-  console.log(`Decoded username: ${user}, password: ${pass}`);
-
-  if (user === username && pass === password) {
-    return NextResponse.next();
-  }
-
-  console.log(`Authentication failed for user: ${user}`);
-  return new NextResponse('Unauthorized', {
-    status: 401,
-    headers: {
-      'WWW-Authenticate': 'Basic realm="Secure Area"'
+export function basicAuthMiddleware(req, res, next) {
+  const authHeader = req.headers.authorization;
+  
+  if (authHeader) {
+    const auth = authHeader.split(' ')[1];
+    const credentials = base64.decode(auth).split(':');
+    const username = credentials[0];
+    const password = credentials[1];
+    
+    if (username === USERNAME && password === PASSWORD) {
+      return next();
     }
-  });
+  }
+  
+  res.setHeader('WWW-Authenticate', 'Basic realm="Access to the site"');
+  res.status(401).end('Authentication required');
 }
