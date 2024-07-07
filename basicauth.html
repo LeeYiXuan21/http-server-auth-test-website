@@ -25,64 +25,27 @@
     <header>
       <h1>Website for PurpleA11y functional testing</h1>
     </header>
-    <br>
 
     <main>
-      <h2><u>Tests for enqueueLinks (in crawlDomain)</u></h2>
-
-      <h3>-Anchor tags with href</h3>
+      <h2><u>Anchor tags to pages 1-100 with basic auth. (/basicauth1.html etc)</u></h2>
       <div style="display: flex; flex-direction: column;">
-      <a
-        id="anchor-tag-with-href"
-        href="/basicauth1.html"
-        role="link"
-      >
-        Anchor tag with href to page 1 (blacklisted)
-      </a>
-      <a
-        id="anchor-tag-with-href"
-        href="/basicauth2.html"
-        role="link"
-      >
-        Anchor tag with href to page 2
-      </a>
-    </div>
-
-    <h2><u>Tests for customEnqueueLinksByClickingElements (in crawlDomain)</u></h2>
-
-      <h3>-Buttons, find link through manual clicks</h3>
-      <button
-        id="button-manual-nav-onclick-to-3"
-        role="link"
-        onclick="navigateCurrentPageTo3()"
-      >
-        Page 3: onclick navigates current page to another
-      </button>
-      <button
-        id="button-manual-nav-onclick-to-4"
-        role="link"
-        onclick="navigateToNewTab4()"
-      >
-        Page 4: onclick opens a page in a new tab
-      </button>
-
-      <h3>-Buttons, find link through observation</h3>
-      <button id="button-href" href="/basicauth5.html" role="link">
-        Page 5: url in href attribute
-      </button>
-
-      <button
-        id="button-datapath"
-        data-path="/basicauth6.html"
-        role="link"
-      >
-        Page 6: url in datapath attribute
-      </button>
-      <br>
-      <br>
-      <br>
-      <h2><u>More anchor tags [remove links from here when adding more test cases to keep website to only ~100 pages]</u></h2>
-      <div style="display: flex; flex-direction: column;">
+        <a id="anchor-tag-with-href" href="/basicauth1.html" role="link">
+            Anchor tag with href to page 1
+        </a>
+        <a id="anchor-tag-with-href" href="/basicauth2.html" role="link">
+            Anchor tag with href to page 2
+        </a>
+        <a id="anchor-tag-with-href" href="/basicauth3.html" role="link">
+            Anchor tag with href to page 3
+        </a>
+        <a id="anchor-tag-with-href" href="/basicauth4.html" role="link">
+            Anchor tag with href to page 4
+        </a>
+        <a id="anchor-tag-with-href" href="/basicauth5.html" role="link">
+            Anchor tag with href to page 5
+        </a>
+        <a id="anchor-tag-with-href" href="/basicauth6.html" role="link">
+            Anchor tag with href to page 6
         </a>
         <a id="anchor-tag-with-href" href="/basicauth7.html" role="link">
             Anchor tag with href to page 7
