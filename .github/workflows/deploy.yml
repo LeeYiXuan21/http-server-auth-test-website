@@ -32,10 +32,11 @@ jobs:
           BASIC_AUTH_PASSWORD: ${{ secrets.BASIC_AUTH_PASSWORD }}
         run: |
           echo "Setting up basic authentication environment variables"
-          # Optionally, set environment variables if needed
+          echo "BASIC_AUTH_USERNAME=${{ secrets.BASIC_AUTH_USERNAME }}" >> $GITHUB_ENV
+          echo "BASIC_AUTH_PASSWORD=${{ secrets.BASIC_AUTH_PASSWORD }}" >> $GITHUB_ENV
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: leeyixuan21.github.io/my-nextjs-app/out  # Adjust based on your build output directory
+          publish_dir: my-nextjs-app/out  # Adjust based on your build output directory

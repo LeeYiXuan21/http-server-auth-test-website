@@ -1,6 +1,7 @@
 from http.server import HTTPServer, SimpleHTTPRequestHandler
 import base64
 import logging
+import argparse
 
 # Add this at the beginning of AuthHTTPRequestHandler
 logging.basicConfig(level=logging.DEBUG)
@@ -52,8 +53,6 @@ class AuthHTTPRequestHandler(SimpleHTTPRequestHandler):
 
 
 if __name__ == "__main__":
-    import argparse
-
     parser = argparse.ArgumentParser()
     parser.add_argument("--bind", "-b", metavar="ADDRESS", default="127.0.0.1",
                         help="Specify alternate bind address [default: all interfaces]")
