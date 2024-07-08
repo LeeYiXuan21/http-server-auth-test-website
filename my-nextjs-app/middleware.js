@@ -1,27 +1,37 @@
-// middleware.js
-
 import { NextResponse } from 'next/server';
-import basicAuth from 'basic-auth';
+import type { NextRequest } from 'next/server';
 
-const username = process.env.BASIC_AUTH_USERNAME || 'username';
-const password = process.env.BASIC_AUTH_PASSWORD || 'password';
+export function middleware(req: NextRequest) {
+  const authHeader = req.headers.get('authorization');
 
-export async function middleware(req) {
-  // Define the protected paths
-  const protectedPaths = ['/basicauth.html'];
+  if (!authHeader) {
+    return new NextResponse('Authentication required', {
+      status: 401,
+      headers: {
+        'WWW-Authenticate': 'Basic realm="Secure Area"',
+      },
+    });
+  }
 
-  if (protectedPaths.includes(req.nextUrl.pathname)) {
-    const user = basicAuth(req);
+  const auth = authHeader.split(' ')[1];
+  const decodedAuth = Buffer.from(auth, 'base64').toString();
+  const [username, password] = decodedAuth.split(':');
 
-    if (!user || user.name !== username || user.pass !== password) {
-      return new NextResponse('Authentication required', {
-        status: 401,
-        headers: {
-          'WWW-Authenticate': 'Basic realm="Secure Area"',
-        },
-      });
-    }
+  const expectedUsername = process.env.BASIC_AUTH_USERNAME || 'username';
+  const expectedPassword = process.env.BASIC_AUTH_PASSWORD || 'password';
+
+  if (username !== expectedUsername || password !== expectedPassword) {
+    return new NextResponse('Authentication required', {
+      status: 401,
+      headers: {
+        'WWW-Authenticate': 'Basic realm="Secure Area"',
+      },
+    });
   }
 
   return NextResponse.next();
 }
+
+export const config = {
+  matcher: ['/basicauth/:path*'],
+};
