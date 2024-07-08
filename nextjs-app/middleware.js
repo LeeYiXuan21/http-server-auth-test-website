@@ -1,17 +1,19 @@
 // middleware.js
 const basicAuth = require('basic-auth');
+import { NextResponse } from 'next/server';
 
-function basicAuthMiddleware(req, res, next) {
+export default function middleware(req, res) {
     const user = basicAuth(req);
 
     if (!user || user.name !== 'username' || user.pass !== 'password') {
-        res.set('WWW-Authenticate', 'Basic realm=Authorization Required');
-        return res.status(401).send('Unauthorized');
+        return new NextResponse('Unauthorized', {
+            status: 401,
+            headers: {
+                'WWW-Authenticate': 'Basic realm="Authorization Required"'
+            }
+        });
     }
 
-    return next();
+    // If authenticated, continue with the API logic
+    return NextResponse.next();
 }
-
-module.exports = {
-    basicAuthMiddleware
-};
