@@ -6,11 +6,18 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export",
+    "clean": "rm -rf out",
+    "deploy": "npm run clean && next build && gh-pages -d out"
   },
   "dependencies": {
+    "basic-auth": "^2.0.1",
+    "next": "14.2.4",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.4"
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
