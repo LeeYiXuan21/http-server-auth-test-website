@@ -1,10 +1,8 @@
 // pages/api/protected-api.js
 import middleware from '../../middleware';
 
-export default function handler(req, res) {
-    // Log headers for debugging
-    console.log('Request Headers:', req.headers);
+console.log('HTTP_BASIC_AUTH:', process.env.HTTP_BASIC_AUTH); // Check if environment variable is accessible
 
-    // Use basicAuthMiddleware to protect this endpoint
+export default function handler(req, res) {
     return middleware(req, res);
 }

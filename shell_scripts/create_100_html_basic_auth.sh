@@ -6,7 +6,7 @@ rootdir="../"
 # Loop from 1 to 100 to create HTML pages
 for i in {1..100}
 do
-  filename="../nextjs-app/pages/basicauth$i.html"  # Filename for each HTML page
+  filename="$rootdir/basicauth$i.html"  # Filename for each HTML page
 
   # Write HTML content to each file
   cat <<EOF > $filename

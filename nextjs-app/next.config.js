@@ -1,17 +1,22 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-  swcMinify: true,
-}
-
+// next.config.js
 module.exports = {
-  // Specify the exportPathMap for static export
-  exportPathMap: function () {
-      return {
-          '/': { page: '/' },
-          // Add other pages here if needed
+  middleware: function (handler) {
+      return function (req, res) {
+          // Apply middleware based on route matching
+          if (req.url.includes('basicauth.html')) {
+              return middleware(req, res);
+          }
+          return handler(req, res);
       };
   },
-  // Optionally configure other Next.js options
-  // For example, target: 'serverless' if using Vercel
+  async rewrites() {
+    return [
+        // Rewrite requests for / to serve public/index.html
+        {
+            source: '/../',
+            destination: '/../index.html',
+        },
+        // Add other rewrite rules for specific pages if needed
+    ];
+},
 };
