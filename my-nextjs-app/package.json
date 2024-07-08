@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "node server.js",
     "lint": "next lint",
     "export": "next export",
     "clean": "rm -rf out",
@@ -13,7 +13,8 @@
   },
   "dependencies": {
     "basic-auth": "^2.0.1",
-    "next": "14.2.4",
+    "express": "^4.19.2",
+    "next": "^14.2.4",
     "react": "^18",
     "react-dom": "^18"
   },
