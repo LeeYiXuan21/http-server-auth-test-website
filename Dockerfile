@@ -13,5 +13,8 @@ COPY . .
 # Expose the port that the server will run on
 EXPOSE 8000
 
-# Command to run the Python script
-CMD ["python3", "http_server_auth.py", "--bind", "127.0.0.1", "--port", "8000"]
+# Set an environment variable
+ENV PORT_LINK=http://localhost:8000
+
+# Command to run the Python script and print port link
+CMD ["sh", "-c", "python3 http_server_auth.py --bind 0.0.0.0 --port 8000 && echo 'Server running at $PORT_LINK'"]
