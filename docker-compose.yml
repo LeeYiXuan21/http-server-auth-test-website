@@ -7,4 +7,7 @@ services:
       - "8000:8000"
     environment:
       - PORT_LINK=http://localhost:8000
-    command: ["sh", "-c", "python3 http_server_auth.py --bind 0.0.0.0 --port 8000 && echo 'Server running at $PORT_LINK'"]
+    command: ["sh", "-c", ". venv/bin/activate && python3 http_server_auth.py --bind 0.0.0.0 --port 8000 && echo 'Server running at $PORT_LINK'"]
+    extra_hosts:
+      - "myhost.local:127.0.0.1"
+      - "anotherhost.local:192.168.1.100"
