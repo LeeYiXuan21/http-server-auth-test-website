@@ -16,15 +16,9 @@ RUN chmod +x /root/shell_scripts/create_100_html_basic_auth.sh
 # Uncomment the following line if you have a requirements.txt file
 # RUN pip install --no-cache-dir -r requirements.txt
 
-# Expose the port that the server will run on
-EXPOSE 8000
-
-# Set an environment variable
-ENV PORT_LINK=http://localhost:8000
-
 # Add hostname mappings
-RUN echo "127.0.0.1 myhost1.local" >> /etc/hosts
-RUN echo "127.0.0.1 myhost2.local" >> /etc/hosts
+# RUN echo "127.0.0.1 myhost1.local" >> /etc/hosts
+# RUN echo "127.0.0.1 myhost2.local" >> /etc/hosts
 
 # Command to run the shell script and print the port link
-CMD ["sh", "-c", "/root/shell_scripts/run_scripts.sh && echo 'Server running at $PORT_LINK'"]
+CMD ["sh", "-c", "/root/shell_scripts/run_scripts.sh"]
