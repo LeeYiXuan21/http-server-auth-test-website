@@ -2,7 +2,8 @@
 # this script is to create a xml sitemap
 
 # Output file
-sitemap="sitemap.xml"
+rootdir="../"
+sitemap="$rootdir/sitemap.xml"
 
 # Begin the XML structure
 cat <<EOL > $sitemap
@@ -14,7 +15,7 @@ EOL
 for i in {1..100}
 do
   echo "    <url>" >> $sitemap
-  echo "        <loc>http://localhost:8000/${i}.html</loc>" >> $sitemap
+  echo "        <loc>https://leeyixuan21.github.io/${i}.html</loc>" >> $sitemap
   echo "    </url>" >> $sitemap
 done
 
