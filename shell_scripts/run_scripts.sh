@@ -2,6 +2,9 @@
 # run_all.sh
 # This script runs shell_scripts/create_100_html.sh and shell_scripts/create_100_html_basic_auth.sh and then starts the HTTP server
 
+# Navigate to the shell_scripts directory
+cd shell_scripts
+
 # Run the shell_scripts/create_100_html.sh script
 bash create_100_html.sh
 
