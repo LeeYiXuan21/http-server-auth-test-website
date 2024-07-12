@@ -18,18 +18,9 @@ if [ $? -eq 0 ]; then
   # Navigate back to the root directory
   cd ..
 
-  # Run the Python HTTP server script in the background
-  python3 http_server_auth.py &
-  server_pid=$!
-
-  # Wait for the server to start (optional)
-  sleep 2
-
-  # Optionally print server status or any further processing
-  echo "HTTP server started. PID: $server_pid"
-
-  # Keep script running or perform other tasks as needed
-  tail -f /dev/null  # This keeps the container running if needed, replace with appropriate logic
+  # Run the Python HTTP server script in the foreground
+  python3 http_server_auth.py --bind 0.0.0.0 --port 8000
+  echo "Starting the HTTP server..."
 
 else
   echo "Failed to create HTML files. Exiting..."
